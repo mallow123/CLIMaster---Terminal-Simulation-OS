@@ -25,4 +25,50 @@ Below are the commands supported by CLIMaster:
 
 ## Installation
 
-To get started
+To get started with CLIMaster:
+
+1. Clone the repository to your local machine:
+    ```bash
+    git clone https://github.com/yourusername/CLIMaster.git
+    ```
+
+2. Navigate into the project directory:
+    ```bash
+    cd CLIMaster
+    ```
+
+3. Compile the project using GCC:
+    ```bash
+    gcc -o climaster main.c
+    ```
+
+4. Run the program:
+    ```bash
+    ./climaster
+    ```
+
+## Usage
+
+Once the program is running, you will be prompted with a terminal interface where you can use the commands listed above to interact with the simulated file system.
+
+### Example
+
+```bash
+root$ ls
+Files:
+- about.txt
+- projects.txt
+Directories:
+- projects
+- files
+
+root$ mkdir mydir
+Directory 'mydir' created.
+
+root$ cd mydir
+Moved up to 'root'.
+
+root$ ls
+Files:
+Directories:
+- mydir
